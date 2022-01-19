@@ -21,6 +21,7 @@ module.exports = {
         ],
         "multiline-ternary": ["off"],
         "react/display-name": "off",
+        "react/prop-types": 0,
         quotes: [
             "error",
             "double",

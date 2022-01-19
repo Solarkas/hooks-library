@@ -3,7 +3,6 @@ import CollapseWrapper from "../common/collapse";
 const UseRefExercise = () => {
     const inputRef = useRef();
     const handleChange = () => {
-        console.log(inputRef);
         inputRef.current.style.width = "150px";
         inputRef.current.style.heigh = "80px";
         inputRef.current.innerHTML = "<small>Text</small>";
